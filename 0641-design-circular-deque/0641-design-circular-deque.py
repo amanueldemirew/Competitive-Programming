@@ -47,7 +47,7 @@ class MyCircularDeque:
         
 
     def isEmpty(self) -> bool:
-        return len(self.cdq) <= 0
+        return len(self.cdq) == 0
 
     def isFull(self) -> bool:
         return len(self.cdq) == self.size
