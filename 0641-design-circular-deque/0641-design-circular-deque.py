@@ -12,7 +12,7 @@ class MyCircularDeque:
 
     def insertLast(self, value: int) -> bool:
         if len(self.cdq) < self.size:
-            self.cdq.insert(self.size-1,value)
+            self.cdq.append(value)
             return True
         
         return False
